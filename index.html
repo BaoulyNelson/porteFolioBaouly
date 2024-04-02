@@ -57,6 +57,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">Je suis</span> NELSON Benito</h1>
+    
     <p>Informaticien et politologue</p>
     <img src="IMAGES/toto.jpg" alt="boy" class="w3-image" width="992" height="1108">
   </header>
@@ -218,19 +219,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +509 44521822 / +50947403551</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: elconquistadorbaoulyn@mail.com</p>
     </div><br>
-    <p>Envoie-moi un message:</p>
 
-    <form action="/action_page.php" target="_blank">
+    <p>Envoie-moi un message:</p>
+    <form action="process_form.php" method="post">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> envoyer
-        </button>
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+              <i class="fa fa-paper-plane"></i> envoyer
+          </button>
       </p>
-    </form>
+  </form>
+  
   <!-- End Contact Section -->
   </div>
   
@@ -242,7 +244,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">Baouly</a></p>
+    <p class="w3-medium">Powered by <a href="https://elconquistadorbaoulyn-com.onrender.com/" target="_blank" class="w3-hover-text-green">Baouly</a></p>
   <!-- End footer -->
   </footer>
 
